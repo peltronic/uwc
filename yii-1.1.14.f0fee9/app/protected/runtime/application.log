@@ -1,0 +1,98 @@
+2013/11/24 17:30:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://www.devuwc.com/home
+---
+2013/11/24 17:30:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://www.devuwc.com/home
+---
+2013/11/24 17:32:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://www.devuwc.com/home
+---
+2013/11/24 17:32:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://www.devuwc.com/home
+---
+2013/11/24 17:32:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/11/24 17:33:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://www.devuwc.com/home
+---
+2013/11/24 17:34:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://www.devuwc.com/home
+---
+2013/11/24 17:35:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://www.devuwc.com/home
+---
+2013/11/24 17:35:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://www.devuwc.com/home
+---
+2013/11/24 17:36:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://www.devuwc.com/home
+---
+2013/11/24 17:36:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://www.devuwc.com/resume
+---

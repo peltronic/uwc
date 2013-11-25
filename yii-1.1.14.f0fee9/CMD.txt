@@ -1,0 +1,2 @@
+rsync -azC --force --delete --progress --exclude-from=config/rsync_exclude--init.txt . ultimbi0@ultimatewebcoders.com:/home1/ultimbi0/src/uwc
+rsync -azC --force --delete --progress --exclude-from=config/rsync_exclude.txt       . ultimbi0@ultimatewebcoders.com:/home1/ultimbi0/src/uwc
