@@ -3,12 +3,16 @@
 
 //$this->breadcrumbs=array( 'Home',);
 ?>
+<div id="subcontainer-home">
 <h1>Welcome!</h1>
 
-<p>Hello, and thank you for visiting my website.</p>
-
-<p> I'm an experienced <a class="" href="http://en.wikipedia.org/wiki/LAMP_(software_bundle)" target="_blank">LAMP</a> developer. I've been writing software for 20 years. The last 6 as a freelance web developer focusing on PHP, MySQL, AJAX, as well as front-end technologies Javascript (JQuery), HTML, and CSS.  I have extensive experience with MVC frameworks such as Symfony and Codeigniter, as well as Facebook, Twitter, and similar API integration.
+<p>
+<img id="pic-peter" src="/images/peter_mc_1.jpg" style="max-width: 100px" align="right" alt="Peter's pic">
+Hello, and thank you for visiting my website.</p>
+<p> 
+I'm an experienced <a class="" href="http://en.wikipedia.org/wiki/LAMP_(software_bundle)" target="_blank">LAMP</a> developer. I've been writing software for 20 years. The last 6 as a freelance web developer focusing on PHP, MySQL, AJAX, as well as front-end technologies Javascript (JQuery), HTML, and CSS.  I have extensive experience with MVC frameworks such as Symfony and Codeigniter, as well as Facebook, Twitter, and similar API integration.
 </p>
+
 
 <p>
 Prior to entering web development, I worked for about 10 years as an embedded C/C++ developer, and before that 2 years as a VLSI engineer at SGI.  I hold a Masters in Electrical Engineering from the University of Washington.
@@ -29,7 +33,7 @@ Prior to entering web development, I worked for about 10 years as an embedded C/
 </ul>
 
 <p>
-My hourly rate is $65 (1099). I am a registered Sole Proprietorship doing business as "PSG Consulting". On request, I can provide references from past clients as well as my LinkedIn.
+My hourly rate starts at $65 (1099). I am a registered Sole Proprietorship doing business as "PSG Consulting". On request, I can provide references from past clients as well as my LinkedIn.
 </p>
 
 <p>
@@ -42,3 +46,5 @@ Please contact me by email or phone if you need help with a project. I typically
 <div id="contact-phone">
     <script type="text/javascript"> var name = "(424) "; var domain1 = "241" ; var domain2 = "9327"; var txtstr = name + domain1 + '-' + domain2; document.write('Phone: '+txtstr+''); </script>
 </div>
+
+</div> <!-- subcontainer-home -->
