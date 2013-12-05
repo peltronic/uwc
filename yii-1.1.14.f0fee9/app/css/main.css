@@ -2,8 +2,10 @@ body
 {
 	margin: 0;
 	padding: 0;
-	color: #555;
-	font: normal 10pt Arial,Helvetica,sans-serif;
+	color: rgb(34,34,34);
+	font-weight: normal;
+	font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 13px;
 	background: #EFEFEF;
 }
 
@@ -43,11 +45,13 @@ body
 
 #logo
 {
+    margin-top: 5px;
 	padding: 10px 0 0 20px;
 	font-size: 200%;
 }
 #sub-logo
 {
+    margin-top: 5px;
 	padding: 3px 0 15px 25px;
 	font-size: 120%;
 }
@@ -250,6 +254,7 @@ a {
 }
 
 #container-projects {
+    margin-top: 15px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -269,4 +274,18 @@ height:2px;
 #subcontainer-home {
     margin-left: 30px;
     margin-right: 30px;
+}
+
+/* override jquery-ui defaults */
+#content .ui-widget-content li,
+#content .ui-widget-content p {
+    font-size: 13px;
+}
+#content .ui-widget-content a {
+    color: #06c;
+}
+
+#content a:focus, 
+#content a:hover {
+    color: #09f;
 }

@@ -47,6 +47,7 @@ return array(
                 //'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
                 ''=>'home/index',
                 '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+                'contact'=>'home/index',
             ),
         ),
 		/*
