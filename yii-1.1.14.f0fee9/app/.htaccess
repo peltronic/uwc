@@ -6,4 +6,5 @@ RewriteCond %{REQUEST_FILENAME} !-d
 #
 # otherwise forward it to index.php
 RewriteRule . index.php
+RewriteRule ^portfolio/?$ project [NC,L]
 

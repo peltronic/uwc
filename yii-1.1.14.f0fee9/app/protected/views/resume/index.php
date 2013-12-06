@@ -2,6 +2,7 @@
 /* @var $this ResumeController */
 
 //$this->breadcrumbs=array( 'Resume',);
+$this->pageTitle=Yii::app()->name . ' | Resume';
 ?>
 <h1>Resume</h1>
 

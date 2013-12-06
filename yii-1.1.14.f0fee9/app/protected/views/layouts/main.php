@@ -21,6 +21,9 @@
     <script src="/js/jquery-ui-1.10.3.custom.min.js"></script>
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+
+    <meta name="description" content="Expert Web Developer available for freelance projects. Over 5 years experience programming in PHP, MySQL, Javascript, CSS, and more.">
+    
 <script>
   $(function() {
     var icons = {
@@ -69,7 +72,7 @@
 			'items'=>array(
 				array('label'=>'Home', 'url'=>array('/home')),
 				array('label'=>'Resume', 'url'=>array('/resume')),
-				array('label'=>'Portfolio', 'url'=>array('/project'))
+				array('label'=>'Portfolio', 'url'=>array('/portfolio'))
 				//array('label'=>'Resume', 'url'=>array('/resume', 'view'=>'about')),
 				//array('label'=>'Contact', 'url'=>array('/site/contact'))
 			),

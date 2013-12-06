@@ -1091,3 +1091,465 @@ Stack trace:
 REQUEST_URI=/js/jquery-1.10.2.min.map
 HTTP_REFERER=http://www.devuwc.com/project
 ---
+2013/12/06 12:33:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/06 12:35:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "portfolio".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('portfolio')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/portfolio
+---
+2013/12/06 12:35:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "portfolio".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('portfolio')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/portfolio
+---
+2013/12/06 12:35:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.devuwc.com/project
+---
+2013/12/06 12:35:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-ui-1.10.3.custom.min.js".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-ui-1....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui-1.10.3.custom.min.js
+HTTP_REFERER=http://www.devuwc.com/project
+---
+2013/12/06 12:35:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.js".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-1.10.2.min.js
+HTTP_REFERER=http://www.devuwc.com/project
+---
+2013/12/06 12:35:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.devuwc.com/project
+---
+2013/12/06 12:35:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.devuwc.com/project
+---
+2013/12/06 12:35:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.devuwc.com/project
+---
+2013/12/06 12:35:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "portfolio".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('portfolio')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/portfolio
+---
+2013/12/06 12:35:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:35:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:35:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.js".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-1.10.2.min.js
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:35:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-ui-1.10.3.custom.min.js".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-ui-1....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui-1.10.3.custom.min.js
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:35:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:35:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:35:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/06 12:35:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "portfolio".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('portfolio')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/portfolio
+---
+2013/12/06 12:35:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:35:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:35:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:35:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.js".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-1.10.2.min.js
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:35:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-ui-1.10.3.custom.min.js".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-ui-1....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui-1.10.3.custom.min.js
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:35:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:35:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/06 12:35:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "portfolio".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('portfolio')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/portfolio
+---
+2013/12/06 12:35:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.js".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-1.10.2.min.js
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:35:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-ui-1.10.3.custom.min.js".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-ui-1....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui-1.10.3.custom.min.js
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:35:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:35:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:35:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:35:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:36:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "portfolio".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('portfolio')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/portfolio
+---
+2013/12/06 12:36:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/06 12:36:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "portfolio".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('portfolio')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/portfolio
+---
+2013/12/06 12:36:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/06 12:36:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "portfolio".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('portfolio')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/portfolio
+---
+2013/12/06 12:36:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/06 12:38:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "portfolio".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('portfolio')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/portfolio
+---
+2013/12/06 12:38:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/06 12:38:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "portfolio".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('portfolio')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/portfolio
+---
+2013/12/06 12:39:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "portfolio".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('portfolio')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/portfolio
+---
+2013/12/06 12:39:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "portfolio".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('portfolio')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/portfolio
+---
+2013/12/06 12:39:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/06 12:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "portfolio".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('portfolio')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/portfolio
+---
+2013/12/06 12:39:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:39:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "portfolio".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('portfolio')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/portfolio
+---
+2013/12/06 12:39:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:40:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:40:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "PORTFOLIO".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('PORTFOLIO')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/PORTFOLIO
+---
+2013/12/06 12:40:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://www.devuwc.com/PORTFOLIO
+---
+2013/12/06 12:42:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://www.devuwc.com/PORTFOLIO
+---
+2013/12/06 12:42:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://www.devuwc.com/portfolio
+---
+2013/12/06 12:42:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

@@ -2,6 +2,7 @@
 /* @var $this HomeController */
 
 //$this->breadcrumbs=array( 'Home',);
+$this->pageTitle=Yii::app()->name . ' | Home';
 ?>
 <div id="subcontainer-home">
 <h1>Welcome!</h1>
@@ -33,7 +34,7 @@ Prior to entering web development, I worked for about 10 years as an embedded C/
 </ul>
 
 <p>
-My hourly rate starts at $75 (1099). I am a registered Sole Proprietorship doing business as "PSG Consulting". On request, I can provide references from past clients as well as my LinkedIn.
+My hourly rate starts at $65 (1099). I am a registered Sole Proprietorship doing business as "PSG Consulting". On request, I can provide references from past clients as well as my LinkedIn.
 </p>
 
 <p>

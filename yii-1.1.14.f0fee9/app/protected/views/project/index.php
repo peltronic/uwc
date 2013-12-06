@@ -2,6 +2,7 @@
 /* @var $this ProjectController */
 
 //$this->breadcrumbs=array( 'Portfolio',);
+$this->pageTitle=Yii::app()->name . ' | Project Portfolio';
 ?>
 <h1>Portfolio/Projects</h1>
 
@@ -45,10 +46,6 @@
         <li> Responsive layout using Twitter Bootstrap.
         </li>
         <li> Layout and style pages to match design mock-ups.
-        </li>
-        <li> Custom content import management using Elastic Search.
-        </li>
-        <li> Database schemas and APIs to manage sites, invoices, and user groups.
         </li>
     </ul>
   </div>

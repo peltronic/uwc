@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'PSG Consulting',
+	'name'=>'PeterG - Freelance Web Developer',
     'defaultController' => 'home',
 
 	// preloading 'log' component
@@ -46,6 +46,7 @@ return array(
                 //'<controller:\w+>/<id:\d+>'=>'<controller>/view',
                 //'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
                 ''=>'home/index',
+                'portfolio'=>array('project','caseSensitive'=>false),
                 '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
                 'contact'=>'home/index',
             ),
