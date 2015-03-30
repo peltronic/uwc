@@ -11,30 +11,30 @@ $this->pageTitle=Yii::app()->name . ' | Home';
 <img id="pic-peter" src="/images/peter_mc_1.jpg" style="max-width: 100px" align="right" alt="Peter's pic">
 Hello, and thank you for visiting my website.</p>
 <p> 
-I'm an experienced <a class="" href="http://en.wikipedia.org/wiki/LAMP_(software_bundle)" target="_blank">LAMP</a> developer. I've been writing software for 20 years. The last 6 as a freelance web developer focusing on PHP, MySQL, AJAX, as well as front-end technologies Javascript (JQuery), HTML, and CSS.  I have extensive experience with MVC frameworks such as Symfony and Codeigniter, as well as Facebook, Twitter, and similar API integration.
+I'm an experienced <a class="" href="http://en.wikipedia.org/wiki/LAMP_(software_bundle)" target="_blank">LAMP</a> developer. I've been writing software for 20 years, the last 7 as a freelance web developer focusing on PHP, MySQL, AJAX, as well as front-end technologies Javascript (JQuery), HTML, and CSS.  I have extensive experience with MVC frameworks such as Laravel and Yii, as well as Facebook, Twitter, and similar API integration.
 </p>
 
 
 <p>
-Prior to entering web development, I worked for about 10 years as an embedded C/C++ developer, and before that 2 years as a VLSI engineer at SGI.  I hold a Masters in Electrical Engineering from the University of Washington.
+Prior to entering web development, I worked for about 10 years as an embedded C/C++ developer, and before that 2 years as a VLSI engineer at SGI.  I graduated from the University of Washington with a Masters in Electrical Engineering.
 </p>
 
-<h1>Skillset</h1>
+<h1>Skills</h1>
 <ul>
 <li>Web programming: PHP, MySQL, AJAX/JSON, HTML, CSS, Javascript/JQuery, REST, OAuth, Web 2.0 APIs (Facebook, Twitter, etc)</li>
-<li>CMS/Frameworks: Yii, Symfony MVC with Doctrine ORM, CodeIgniter, Zend Framework, Wordpress.</li>
+<li>CMS/Frameworks: Yii, Laravel, Symfony, CodeIgniter, Zend Framework, Wordpress.</li>
 <li>Other programming languages: C (expert), C++ (advanced).</li>
 <li>Web Analytics Tools: Mixpanel, Google Analytics.</li>
-<li>Cloud Hosting: Amazon Web Services (AWS) EC2, RDS, Load Balancing</li>
+<li>Cloud Hosting: Amazon Web Services (AWS) EC2 &amp; Load Balancing, Rackspace Cloud</li>
 <li>Version Control: git, mercurial, cvs</li>
 <li>Solid understanding of data structures, design patterns, computer and web architecture.</li>
-<li>Rapid prototype development using “Lean Startup” methodology.</li>
-<li>Highly proficient with Linux, MySQL, and Apache administration (including shell scripting & Linux command line, vi).</li>
+<li>Rapid prototype development using "Lean Startup" methodology &amp; SCRUM.</li>
+<li>Highly proficient with Linux, MySQL, and Apache administration (including shell scripting &amp; Linux command line, vi).</li>
 <li>Excellent debug/troubleshooting skills; expertise in Zend Debugger, Firebug, gdb, Visual Studio.</li>
 </ul>
 
 <p>
-My hourly rate starts at $65 (1099). I am a registered Sole Proprietorship doing business as "PSG Consulting". On request, I can provide references from past clients as well as my LinkedIn.
+My hourly rate starts at $105 (1099). I am a registered Sole Proprietorship doing business as "PSG Consulting". On request, I can provide references from past clients as well as my LinkedIn.
 </p>
 
 <p>
