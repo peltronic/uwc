@@ -1,0 +1,21 @@
+/*
+ Theme Name:   Twenty Fifteen Child
+ Theme URI:    http://www.peterg-webdeveloper.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       Peter S. Gorgone
+ Author URI:   http://www.peterg-webdeveloper.com
+ Template:     twentyfifteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+/*
+@media screen and (min-width: 59.6875em) {
+    .site-content { float: left; margin-left: 0px; width: 70.5882%; }
+    .sidebar { float: right; right:0; margin-right: 0px; max-width: 413px; width: 29.4118%; }
+    body:before { right: 0; left:auto; }
+    .site-footer { margin: 0 0 0 6.1%; }
+}
+*/
