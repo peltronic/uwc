@@ -7,7 +7,7 @@ $this->pageTitle=Yii::app()->name . ' | Project Portfolio';
 <h1>Portfolio</h1>
 
 <div id="container-projects">
-<div id="accordion">
+<div class="accordion">
 
   <!-- ==================================== -->
   <h3>Axiom Images</h3>
@@ -114,4 +114,19 @@ $this->pageTitle=Yii::app()->name . ' | Project Portfolio';
 
 </div> <!-- accordion -->
 </div> <!-- container-projects -->
+
+<h1>Demo Code</h1>
+<div id="container-demos">
+<div class="accordion">
+  <!-- ==================================== -->
+  <h3>AngularJS Broadcast to Update Directive</a> </h3>
+  <div>
+    <p><a target="_blank" href="http://plnkr.co/edit/oNYNDw?p=preview">Plunker Link</a></p>
+    <p> This simple angular script updates a directive from a model in the parent scope. Instead of updating as the user types, however, it does so only once the user hits "save", simulating a form submission.</p>
+    <p>This is achieved by broadcasting a 'save' event when the button is clicked. The directive waits on this event and when seen will recompile the directive.</p>
+    <p>The alternative, which would update the directive dyanmically as the user types, would be achieved by using a "watch" inside the directive.  </p>
+  </div>
+
+</div> <!-- accordion -->
+</div> <!-- container-demos -->
 
