@@ -239,7 +239,10 @@ div.search-form
 
 .floatLeft { float: left; }
 .floatRight { float: right; }
-.clearFloat { clear:both; }
+.clearFloat,
+.clearBoth { 
+    clear:both; 
+}
 
 #box-contact {
     padding: 20px 20px 0 0;
@@ -306,4 +309,19 @@ height:2px;
 
 .accordion p {
     margin-bottom: 8px;
+}
+
+ul.tag-youtube_embeds {
+    list-style: none;
+}
+ul.tag-youtube_embeds li {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 40%;
+}
+ul.tag-youtube_embeds li:first-child {
+    margin-left: 0;
+}
+ul.tag-youtube_embeds li h6 {
+    margin: 5px 0;
 }

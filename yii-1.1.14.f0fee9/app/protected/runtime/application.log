@@ -3279,3 +3279,12 @@ Stack trace:
 REQUEST_URI=/favicon.ico
 HTTP_REFERER=http://www.devuwc.com/
 ---
+2016/02/05 13:07:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/devman/Dev/consulting/uwc/yii-1.1.14.f0fee9/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.devuwc.com/
+---
