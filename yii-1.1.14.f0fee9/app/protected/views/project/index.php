@@ -10,6 +10,22 @@ $this->pageTitle=Yii::app()->name . ' | Project Portfolio';
 <div class="accordion">
 
   <!-- ==================================== -->
+  <h3>Write Evolution</h3>
+  <div class="OFFcrate-project">
+    <p><a class="" href="http://www.writeevolution.com" target="_blank">Write Evolution</a> is a collaborative writing web application, that enables writers and editors to create novels and short stories together working online.</p>
+
+  <ul>
+    <li>Implemented a built-in private messaging and notifiation system so contributors can easily communicate about the story, characters, etc.</li>
+    <li>Created database schema and corresponding model classes to support story writing process where each chapter can have multiple drafts by separate authors, where the best draft gets selected and moved to an 'edit phase'.</li>
+    <li>Implemented functionality to enhance user experience such as search and browsing stories by category.</li>
+
+  </ul>
+  <div>
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/-6rlGsBxaQU" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  </div>
+  <!-- ==================================== -->
   <h3>Axiom Images</h3>
   <div class="OFFcrate-project">
     <p><a class="" href="http://www.axiomimages.com" target="_blank">Axiom Images</a> is a growing e-commerce site specializing in aerial video footage.</p>

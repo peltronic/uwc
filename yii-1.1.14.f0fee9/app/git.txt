@@ -1,0 +1,1 @@
+git add .htaccess protected/config/main.php protected/runtime/application.log protected/views/home/index.php protected/views/layouts/main.php protected/views/project/index.php protected/views/resume/index.php robots.txt

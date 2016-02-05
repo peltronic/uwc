@@ -1,5 +1,7 @@
 RewriteEngine on
 
+#RewriteRule ^blog/wp-admin/([0-9a-z_-]*)/$  /blog/?a=post&ps=$1 [NC,L]
+
 # if a directory or a file exists, use it directly
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

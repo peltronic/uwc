@@ -38,7 +38,7 @@ My hourly rate starts at $105 (1099). I am a registered Sole Proprietorship doin
 </p>
 
 <p>
-Please contact me by email or phone if you need help with a project. I typically work form home but I'm open to on-site work in as well.
+Please contact me by email or phone if you need help with a project. I typically work form home but I'm open to on-site work in as well. I split my time between Los Angeles and Las Vegas.
 </p>
 
 <div id="contact-email">
