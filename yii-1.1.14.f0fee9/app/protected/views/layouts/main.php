@@ -74,7 +74,7 @@ $( ".accordion" ).accordion( "option", "active", 0 ); // open first tab
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>'Home', 'url'=>array('/home')),
-				array('label'=>'Resume', 'url'=>array('/resume')),
+				//array('label'=>'Resume', 'url'=>array('/resume')),
 				array('label'=>'Portfolio', 'url'=>array('/portfolio'))
 				//array('label'=>'Resume', 'url'=>array('/resume', 'view'=>'about')),
 				//array('label'=>'Contact', 'url'=>array('/site/contact'))

@@ -270,6 +270,9 @@ margin-top: 40px;
 width: 100%; 
 height:2px;
 }
+#container-projects ul {
+    margin-bottom: 0;
+}
 #container-demos {
     margin-top: 15px;
     margin-left: 20px;
