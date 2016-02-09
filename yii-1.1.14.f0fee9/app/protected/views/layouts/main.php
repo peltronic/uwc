@@ -43,6 +43,9 @@
         $( ".accordion" ).accordion( "option", "icons", icons );
       }
     });
+
+$( ".accordion" ).accordion( "option", "active", 0 ); // open first tab
+
   });
 </script>
 </head>

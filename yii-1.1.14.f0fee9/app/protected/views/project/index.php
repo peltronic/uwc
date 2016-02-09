@@ -34,6 +34,14 @@ $this->pageTitle=Yii::app()->name . ' | Project Portfolio';
   </div>
 
   <!-- ==================================== -->
+  <h3>Clssfy</h3>
+  <div class="OFFcrate-project">
+    <p><a class="" href="http://www.clssfy.com" target="_blank">Clssfy</a> Clssfy.com is message board application for university students based loosely on reddit. Students can communicate about their courses, university-wide news or events, and other happenings related to their school. It also offers a backend business portal for restaurants and shops in the vicinity of the campus. Local businesses can register an account and post Groupon-like offers to attract students to their business.</p>
+
+    <p>I was approached by the founder to design and develop the site, and built a simple "Minimum Viable Product" in about a month. From there we added features and enhancements over the next several months. I coded the site using the PHP Laravel Framework, with a MySQL database. I setup a local development environment as well as both staging and production websites on Rackspace.</p>
+  </div>
+
+  <!-- ==================================== -->
   <h3>Axiom Images</h3>
   <div class="OFFcrate-project">
     <p><a class="" href="http://www.axiomimages.com" target="_blank">Axiom Images</a> is a growing e-commerce site specializing in aerial video footage.</p>
