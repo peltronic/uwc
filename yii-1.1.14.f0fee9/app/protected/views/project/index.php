@@ -13,7 +13,7 @@ $this->pageDescription = 'I have developed a wide variety of sites including a G
 <div class="accordion">
 
   <!-- ==================================== -->
-  <h3>Write Evolution</h3>
+  <h2>Write Evolution</h2>
   <div class="OFFcrate-project">
     <p><a class="" href="http://www.writeevolution.com" target="_blank">Write Evolution</a> is a collaborative writing web application, that enables writers and editors to create novels and short stories together working online.</p>
 
@@ -36,7 +36,7 @@ $this->pageDescription = 'I have developed a wide variety of sites including a G
   </div>
 
   <!-- ==================================== -->
-  <h3>Clssfy</h3>
+  <h2>Clssfy</h2>
   <div class="OFFcrate-project">
     <p><a class="" href="http://www.clssfy.com" target="_blank">Clssfy</a> Clssfy.com is message board application for university students based loosely on reddit. Students can communicate about their courses, university-wide news or events, and other happenings related to their school. It also offers a backend business portal for restaurants and shops in the vicinity of the campus. Local businesses can register an account and post Groupon-like offers to attract students to their business.</p>
 
@@ -44,7 +44,7 @@ $this->pageDescription = 'I have developed a wide variety of sites including a G
   </div>
 
   <!-- ==================================== -->
-  <h3>Axiom Images</h3>
+  <h2>Axiom Images</h2>
   <div class="OFFcrate-project">
     <p><a class="" href="http://www.axiomimages.com" target="_blank">Axiom Images</a> is a growing e-commerce site specializing in aerial video footage.</p>
 
@@ -58,7 +58,7 @@ $this->pageDescription = 'I have developed a wide variety of sites including a G
   </div>
 
   <!-- ==================================== -->
-  <h3>One Day on Earth Archive Map</h3>
+  <h2>One Day on Earth Archive Map</h2>
   <div class="OFFcrate-project">
     <p><a class="" href="http://archive.onedayonearth.org" target="_blank">One Day on Earth</a> is an annual project founded by a Santa Monica-based filmmaker. Starting on October 10, 2010 (10/10/10), thousands of volunteers worldwide shot footage documenting life for that day. The "archive" uses google maps to allow viewers to browse and watch the videos by location, keywords, and categories.</p>
 
@@ -78,7 +78,7 @@ $this->pageDescription = 'I have developed a wide variety of sites including a G
   </div>
 
   <!-- ==================================== -->
-  <h3>One Day on Earth Video Uploader</h3>
+  <h2>One Day on Earth Video Uploader</h2>
   <div class="OFFcrate-project">
 
     <p>The One Day on Earth project required a custom upload app to allow users to upload their videos to Vimeo, while entering details about the video that would show on the archive map.</p>
@@ -96,7 +96,7 @@ $this->pageDescription = 'I have developed a wide variety of sites including a G
   </div>
 
   <!-- ==================================== -->
-  <h3>Moboom</h3>
+  <h2>Moboom</h2>
   <div>
     <p> <a class="" href="http://www.moboom.com" target="_blank">Moboom</a> is a sophisticated platform for building mobile websites. I was brought on in mid-2012 to help with development of the backend, which uses PHP and the Yii MVC framework. Enhancements and features I implemented include: </p>
     <ul>
@@ -114,7 +114,7 @@ $this->pageDescription = 'I have developed a wide variety of sites including a G
   </div>
 
   <!-- ==================================== -->
-  <h3>Robot Dough</h3>
+  <h2>Robot Dough</h2>
   <div>
     <p>Robot Dough was a cutting-edge Web 2.0 stock investing site coded in the Symfony MVC framework. I was hired after the original site was in place, and for the next year helped to build new features and optimize existing ones.</p>
     <ul>
@@ -124,7 +124,7 @@ $this->pageDescription = 'I have developed a wide variety of sites including a G
   </div>
 
   <!-- ==================================== -->
-  <h3>Graduation Nation</h3>
+  <h2>Graduation Nation</h2>
   <div>
     <p> <a class="" href="http://www.graduationnation.com" target="_blank">Graduation Nation</a> offers a video recording service which is used by many colleges nationwide to record graduation ceremonies.</p>
     <ul>
@@ -135,7 +135,7 @@ $this->pageDescription = 'I have developed a wide variety of sites including a G
   </div>
 
   <!-- ==================================== -->
-  <h3>Paid Yet</h3>
+  <h2>Paid Yet</h2>
   <div>
     <p> I contributed to a one-click payment system start-up. My work on this site was mostly front-end coding in Javascript and CSS.</p>
     <ul>
@@ -153,7 +153,7 @@ $this->pageDescription = 'I have developed a wide variety of sites including a G
 <div id="container-demos">
 <div class="accordion">
   <!-- ==================================== -->
-  <h3>AngularJS Broadcast to Update Directive</a> </h3>
+  <h2>AngularJS Broadcast to Update Directive</a> </h2>
   <div>
     <p><a target="_blank" href="http://plnkr.co/edit/oNYNDw?p=preview">Plunker Link</a></p>
     <p> This simple angular script updates a directive from a model in the parent scope. Instead of updating as the user types, however, it does so only once the user hits "save", simulating a form submission.</p>

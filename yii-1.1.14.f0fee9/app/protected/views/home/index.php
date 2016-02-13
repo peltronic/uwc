@@ -43,7 +43,7 @@ My hourly rate is $75 (1099). On request, I can provide references from past cli
 </p>
 
 <p>
-Please contact me by email or phone if you need help with a project. I typically work form home but I'm open to on-site work in as well. I split my time between Los Angeles and Las Vegas.
+Please contact me by email or phone if you need help with a project. I typically work form home but I'm open to on-site work as well. I am based in Las Vegas but have strong ties to Los Angeles and can do on-site work anywhere in Southern California.
 </p>
 
 <div id="contact-email">
