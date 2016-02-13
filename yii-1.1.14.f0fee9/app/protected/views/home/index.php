@@ -18,7 +18,7 @@ I'm an experienced <a class="" href="http://en.wikipedia.org/wiki/LAMP_(software
 
 
 <p>
-Prior to entering web development, I worked for about 10 years as an embedded C/C++ developer, and before that 2 years as a VLSI engineer at SGI.  I graduated from the University of Washington with a Masters in Electrical Engineering.
+Prior to entering web development, I worked for about 10 years as an embedded C/C++ developer, and before that 2 years as a VLSI engineer at <?php echo CHtml::link('SGI', 'http://www.sgi.com');?>.  I graduated from the <?php echo CHtml::link('University of Washington','http://www.ee.washington.edu/');?> with a Masters in Electrical Engineering.
 </p>
 
 <h1>Skills</h1>
@@ -36,7 +36,7 @@ Prior to entering web development, I worked for about 10 years as an embedded C/
 </ul>
 
 <p>
-My hourly rate starts at $105 (1099). I am a registered Sole Proprietorship doing business as "PSG Consulting". On request, I can provide references from past clients as well as my LinkedIn.
+My hourly rate is $75 (1099). On request, I can provide references from past clients as well as my <?php echo Chtml::link('LinkedIn','https://www.linkedin.com/in/petergorgone');?>.
 </p>
 
 <p>
