@@ -2,7 +2,9 @@
 /* @var $this ProjectController */
 
 //$this->breadcrumbs=array( 'Portfolio',);
-$this->pageTitle=Yii::app()->name . ' | Project Portfolio';
+//$this->pageTitle=Yii::app()->name . ' | Project Portfolio';
+$this->pageTitle = 'Web 2.0 and Application Portfolio | Los Angeles';
+$this->pageDescription = 'I have developed a wide variety of sites including a Google Maps-based film site, a web application for collaborative writing, and the backend of adaptive content CMS.';
 ?>
 <h1>Portfolio</h1>
 <h6>Please click on a box below to read more about each project</h6>

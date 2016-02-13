@@ -2,7 +2,9 @@
 /* @var $this HomeController */
 
 //$this->breadcrumbs=array( 'Home',);
-$this->pageTitle=Yii::app()->name . ' | Home';
+//$this->pageTitle=Yii::app()->name . ' | Home';
+$this->pageTitle = 'Custom Full Stack PHP Web Developer | Los Angeles | Home';
+$this->pageDescription = 'I am a full-stack web developer with over eight years of experience building LAMP-based sites and applications (PHP, MySQL, Apache, Linux). I also have extensive experience in front-end development with Javascript, AJAX, and CSS/HTML.';
 ?>
 <div id="subcontainer-home">
 <h1>Welcome!</h1>
@@ -11,7 +13,7 @@ $this->pageTitle=Yii::app()->name . ' | Home';
 <img id="pic-peter" src="/images/peter_mc_1.jpg" style="max-width: 100px" align="right" alt="Peter's pic">
 Hello, and thank you for visiting my website.</p>
 <p> 
-I'm an experienced <a class="" href="http://en.wikipedia.org/wiki/LAMP_(software_bundle)" target="_blank">LAMP</a> developer. I've been writing software for 20 years, the last 7 as a freelance web developer focusing on PHP, MySQL, AJAX, as well as front-end technologies Javascript (JQuery), HTML, and CSS.  I have extensive experience with MVC frameworks such as Laravel and Yii, as well as Facebook, Twitter, and similar API integration.
+I'm an experienced <a class="" href="http://en.wikipedia.org/wiki/LAMP_(software_bundle)" target="_blank">LAMP</a> developer. I've been writing software for 20 years, the last eight as a freelance web developer focusing on PHP, MySQL, AJAX, as well as front-end technologies Javascript (JQuery), HTML, and CSS.  I have extensive experience with MVC frameworks such as Laravel and Yii, as well as Facebook, Twitter, and similar API integration.
 </p>
 
 
