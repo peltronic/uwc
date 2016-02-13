@@ -56,8 +56,8 @@ $( ".accordion" ).accordion( "option", "active", 0 ); // open first tab
 
 	<div id="header">
         <div class="floatLeft">
-		    <div id="logo">Peter Gorgone: Experienced Website Developer</div>
-		    <div id="sub-logo">Custom Programming for Backend and Frontend Technologies</div>
+		    <div id="logo">Peter Gorgone: Expert Web and Application Developer</div>
+		    <div id="sub-logo">Fast and Efficient Custom Development for Small Business and Startups</div>
         </div>
         <div id="box-contact" class="floatRight">
             <div id="contact-email">
