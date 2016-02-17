@@ -3,9 +3,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Clssfy</title>
-  <meta name="description" content="Clssfy">
-  <meta name="keywords" content="clssfy">
+  <title>@yield('title','Custom Full Stack PHP Web Developer | Los Angeles | Home')</title>
+  <meta name="description" content="@yield('description','Peter Gorgone is a full-stack web developer with over eight years of experience building LAMP-based sites and applications (PHP, MySQL, Apache, Linux). I also have extensive experience in front-end development with Javascript, AJAX, and CSS/HTML.')">
+  
+  <meta name="keywords" content="web design development programming LAMP full-stack php mysql apache linux javascript jquery angularjs reactjsmvp agile spa">
 
   {{--
   <link rel="icon" type="image/png" href="/img/clssfy_favicon.png" />
