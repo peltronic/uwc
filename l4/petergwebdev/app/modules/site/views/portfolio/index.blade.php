@@ -3,18 +3,10 @@
 
 <section class="row crate-profile_show">
 
-    <aside class="small-12 medium-3 columns tag-sidebar">
-    @include('site::profile._sidebar',['user'=>$user, 'active'=>'show','is_account_owner'=>$is_account_owner])
-    </aside>
-
-    <article class="tag-body small-12 medium-9 columns">
+    <article class="tag-body small-12 columns">
 <?php
-/* @var $this ProjectController */
-
-//$this->breadcrumbs=array( 'Portfolio',);
-//$this->pageTitle=Yii::app()->name . ' | Project Portfolio';
-$this->pageTitle = 'Web 2.0 and Application Portfolio | Los Angeles';
-$this->pageDescription = 'I have developed a wide variety of sites including a Google Maps-based film site, a web application for collaborative writing, and the backend of adaptive content CMS.';
+//$this->pageTitle = 'Web 2.0 and Application Portfolio | Los Angeles';
+//$this->pageDescription = 'I have developed a wide variety of sites including a Google Maps-based film site, a web application for collaborative writing, and the backend of adaptive content CMS.';
 ?>
 <h1>Portfolio</h1>
 <h6>Please click on a box below to read more about each project</h6>
@@ -84,7 +76,7 @@ $this->pageDescription = 'I have developed a wide variety of sites including a G
     
   </ul>
 
-    <img src="/images/odoe.png" style="max-width: 580px;max-height: 500px;" alt="One Day on Earth Archive Screenshot">
+  {{--<img src="/images/odoe.png" style="max-width: 580px;max-height: 500px;" alt="One Day on Earth Archive Screenshot">--}}
   </div>
 
   <!-- ==================================== -->
@@ -102,7 +94,7 @@ $this->pageDescription = 'I have developed a wide variety of sites including a G
         <li> Implemented robust error-handling and "graceful degradation" features to handle possible user errors.</li>
     </ul>
     
-    <img src="/images/odoe-uploader-step5.png" style="max-width: 580px;max-height: 500px;" alt="One Day on Earth Uploader Screenshot">
+    {{--<img src="/images/odoe-uploader-step5.png" style="max-width: 580px;max-height: 500px;" alt="One Day on Earth Uploader Screenshot">--}}
   </div>
 
   <!-- ==================================== -->

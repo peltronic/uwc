@@ -12,20 +12,20 @@ class PortfolioController extends BaseController {
             //'/js/site/libs/bbSiteUtils.js',
          ]);
         $this->registerJsInlines([
-            //'/js/site/initProfile.js',
+            '/js/site/initPortfolio.js',
          ]);
     }
 
     public function index()
     {
         $data = [];
-        $data['user'] = $user = \User::where('username',$username)->firstOrFail();
+        //$data['user'] = $user = \User::where('username',$username)->firstOrFail();
         //$this->enforceAccountOwner($user->id);
-        $data['is_account_owner'] = $this->isAccountOwner($user->id);
+        //$data['is_account_owner'] = $this->isAccountOwner($user->id);
 
-        $data['my_stories'] = $my_stories = \Story::getMy($user);
+        //$data['my_stories'] = $my_stories = \Story::getMy($user);
 
-        return \View::make('site::profile/stories',$data);
+        return \View::make('site::portfolio/index',$data);
     }
 
 
