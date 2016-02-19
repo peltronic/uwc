@@ -10,7 +10,7 @@ $this->pageDescription = 'I am a full-stack web developer with over eight years 
 <h1>Welcome!</h1>
 
 <p>
-<img id="pic-peter" src="/images/AAA-PET_5190.jpg" style="max-width: 220px" align="right" alt="Peter's profile picture">
+<img id="pic-peter" src="/images/peter_expert_web_developer.jpg" style="max-width: 220px" align="right" alt="Peter's Expert Web Developer Profile Picture">
 Hello, and thank you for visiting my website.</p>
 <p> 
 I'm an experienced <a class="" href="http://en.wikipedia.org/wiki/LAMP_(software_bundle)" target="_blank">LAMP</a> developer. I've been writing software for twenty years, the last eight as a freelance web developer focusing on PHP, MySQL, AJAX, as well as front-end technologies Javascript (JQuery), HTML, and CSS.  I have extensive experience with MVC frameworks such as Laravel and Yii, as well as Facebook, Twitter, and similar API integration.
