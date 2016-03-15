@@ -1,0 +1,2 @@
+http://stackoverflow.com/questions/30964780/foundation-with-laravel-and-elixir
+ls -ltr vendor/bower_components/
