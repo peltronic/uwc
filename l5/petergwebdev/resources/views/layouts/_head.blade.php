@@ -6,9 +6,9 @@
 <meta name="keywords" content="keywords,here">
 
 <link rel="stylesheet" href="/css/app.css" />
+<link rel="stylesheet" href="/static/css/styles.css" type="text/css">
 
 {{--
 <link rel="shortcut icon" href="favicon.ico">
-<link rel="stylesheet" href="/static/css/styles.css" type="text/css">
 <link rel="shortcut icon" href="/static/images/utilitworx-favi.ico">
 --}}
