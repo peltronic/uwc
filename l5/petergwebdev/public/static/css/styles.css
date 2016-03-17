@@ -1,16 +1,81 @@
-nav li {
+h1,h2,p {
+    color: #525352;
+}
+nav {
+    box-shadow: 0 1px 0 rgba(0,0,0,.5);
+}
+nav ul {
+    padding: 10px 0;
+}
+nav ul li {
     display: inline-block;
     margin-left: 20px;
 }
-nav li:first-child {
+nav ul li:first-child {
     margin-left: 0;
 }
-nav li a {
+nav ul li a {
     font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
     font-size: 20px;
     line-height: 40px;
     text-transform: uppercase;
 }
-nav {
-    box-shadow: 0 1px 0 rgba(0,0,0,.5);
+
+ul.tag-services_list {
+    list-style: none;
+}
+ul.tag-services_list li {
+    text-align: center;
+    margin-bottom: 20px;
+}
+ul.tag-services_list li .superbox {
+    padding: 20px 20px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+    border-radius: 3px;
+    min-height: 270px;
+    background-color: #3499e0;
+}
+ul.tag-services_list li .superbox h4,
+ul.tag-services_list li .superbox p {
+    color: #fff;
+}
+
+.tag-view .supercrate-header {
+    text-align: center;
+}
+.tag-view .supercrate-body {
+    margin-top: 15px;
+}
+
+.view-home .superbox-benefits_list {
+    /*
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+    background-color: #3499e0;
+    */
+}
+.view-home .superbox-benefits_list ul {
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 20px 20px;
+    /*
+    border-radius: 3px;
+    box-shadow: 1px 2px #e0e0e0;
+    color: #fff;
+    color: #008CBA;
+    */
+}
+.view-home .superbox-benefits_list ul li {
+    margin-bottom: 7px;
+}
+.view-home .superbox-benefits_list ul li:last-child {
+    margin-bottom: 0;
+}
+.view-home .superbox-benefits_list ul li i.fa-plus {
+    border: #FC6D00 2px solid;
+    margin-right: 10px;
+    color: #FC6D00;
+    font-weight: normal;
+    padding: 5px 5px 3px 5px;
+    border-radius: 8px;
 }
