@@ -29,6 +29,8 @@ Route::get('/', function () {
 
 Route::group(['middleware' => ['web']], function () {
     Route::get('/test', ['as'=>'test', 'uses'=>'Site\TestController@show']);
-    Route::get('/confirm/contact', ['as'=>'site.pages.contactConfirm', 'uses'=>'Site\PagesController@contactConfirm']);
     Route::get('/portfolio', ['as'=>'site.portfolio.index', 'uses'=>'Site\PortfolioController@index']);
+    Route::get('/confirm/contact', ['as'=>'site.pages.contactConfirm', 'uses'=>'Site\PagesController@contactConfirm']);
+    Route::get('/{slug}', ['as'=>'site.pages.show', 'uses'=>'Site\PagesController@show']);
+    Route::get('/', ['as'=>'site.pages.home', 'uses'=>'Site\PagesController@home']);
 });

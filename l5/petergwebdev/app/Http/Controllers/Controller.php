@@ -28,25 +28,23 @@ class Controller extends BaseController
 
         // common to all site controllers
         $this->registerJsLibs([
-            '/js/vendor/foundation/jquery.js',
-            '/js/vendor/jquery-ui/jquery-ui.min.js',
-            '/js/vendor/foundation/foundation.min.js',
-            //'/js/common/libs/clUtils.js',
+            //'/js/vendor/foundation/jquery.js',
+            //'/js/vendor/jquery-ui/jquery-ui.min.js',
+            //'/js/vendor/foundation/foundation.min.js',
          ]);
 
         $this->registerJsInlines([
-            '/js/site/initCommon.js',
-            //'/js/vendor/tag-it.min.js', 
+            //'/js/site/initCommon.js',
          ]);
 
         $this->registerCssInlines([
-            '/css/vendor/jquery-ui/jquery-ui.min.css',
-            '/css/vendor/foundation/normalize.css',
-            '/css/vendor/foundation/foundation.min.css',
-            '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css',
-            '/css/vendor/webicons.css',
-            '/css/base/styles.css',
-            '/css/site/styles.css',
+            //'/css/vendor/jquery-ui/jquery-ui.min.css',
+            //'/css/vendor/foundation/normalize.css',
+            //'/css/vendor/foundation/foundation.min.css',
+            //'//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css',
+            //'/css/vendor/webicons.css',
+            //'/css/base/styles.css',
+            //'/css/site/styles.css',
          ]);
 
         \View::share('g_user', \App\User::getUser());

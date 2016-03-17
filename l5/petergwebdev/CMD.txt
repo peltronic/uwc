@@ -1,0 +1,7 @@
+$ composer create-project --prefer-dist laravel/laravel  petergwebdev
+$ composer dump-autoload
+$ composer update
+$ composer remove illuminate/html
+$ composer remove illuminate
+$ composer require laravelcollective/html
+$ php artisan make:model Content

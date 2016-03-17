@@ -1,22 +1,36 @@
 <?php
-namespace PsgSite;
+namespace App\Http\Controllers\Site;
 
-class PagesController extends BaseController {
+use App\Http\Controllers\Controller;
 
-    public function __construct() 
+class PagesController extends Controller {
+
+    public function __construct()
     {
-        $defaultTitle = '';
-        $defaultDesc = '';
-        parent::__construct(); // inits scripts
+        parent::__construct();
 
         // must be after parent call!
         $this->registerJsLibs([
+            //'/js/site/libs/bbSiteUtils.js',
          ]);
         $this->registerJsInlines([
+            //'/js/site/initPortfolio.js',
          ]);
+    }
 
-        $this->registerCssInlines([
-         ]);
+    public function home()
+    {
+        $data = [
+                  'contents'=>[],
+                ];
+
+        $parsedown = new \Parsedown();
+
+        $tmp = \App\Content::where('slug','home-page-1')->pluck('content');
+        $data['contents']['home-page-1'] = $parsedown->text($tmp[0]);
+        //$data['contents']['home-page-1'] = $parsedown->text('Hello _Parsedown_!');
+        //dd($tmp);
+        return \View::make('site.pages.home',$data);
     }
 
     public function show($slug)
@@ -24,20 +38,23 @@ class PagesController extends BaseController {
         $data = [];
         switch ($slug) {
             case 'something-else':
-                $viewFile = 'site::pages.'.$slug;
+                $viewFile = 'site.pages.'.$slug;
                 break;
             case 'causes':
                 $data['partners'] = \Partner::get();
-                $viewFile = 'site::pages.'.$slug;
+                $viewFile = 'site.pages.'.$slug;
                 break;
             case 'contact-us':
-                $viewFile = 'site::pages.contact';
+                $viewFile = 'site.pages.contact';
+                break;
+            case 'home':
+                return redirect('/');
                 break;
             default:
                 //\App::abort(404);
-                $viewFile = 'site::pages.'.$slug;
+                $viewFile = 'site.pages.'.$slug;
         }
-            
+
         try {
             return \View::make($viewFile, $data);
         } catch (\Exception $e) {
@@ -48,7 +65,7 @@ class PagesController extends BaseController {
 
     public function contactConfirm()
     {
-        return \View::make('site::pages.contact-confirm');
+        return \View::make('site.pages.contact-confirm');
     } // contactConfirm()
 
 }

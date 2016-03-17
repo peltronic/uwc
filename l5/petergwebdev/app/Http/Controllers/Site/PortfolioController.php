@@ -15,7 +15,7 @@ class PortfolioController extends Controller {
             //'/js/site/libs/bbSiteUtils.js',
          ]);
         $this->registerJsInlines([
-            '/js/site/initPortfolio.js',
+            //'/js/site/initPortfolio.js',
          ]);
     }
 
