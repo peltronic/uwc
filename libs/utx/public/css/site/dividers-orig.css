@@ -1,0 +1,76 @@
+/* Dividers and underlined headers */
+/* %PSG
+*/
+.divider:after,
+.underlined-header:after,
+.overlined-header:before {
+    content: "______";
+    font-weight: bold;
+    position: relative;
+    display:block;
+}
+.underlined-header,
+.overlined-header {
+    font-size: 2.8em;
+    font-family: "aregular";
+    font-weight:bold;
+    display: inline-block;
+    text-transform:uppercase;
+}
+.underlined-header:after,
+.overlined-header:before {
+    line-height: 0.1;
+}
+.underlined-header {
+    text-align:center;
+}
+
+.overlined-header:before { 
+    margin-bottom:30px;
+}
+
+.divider {
+    padding:0;
+    margin: 0 0 20px 0;
+    text-align: center;
+    font: bold 3em aregular;
+}
+.divider.divider-left {
+    text-align: left !important;
+}
+.divider:after {
+    color: rgb(31, 25, 86);
+}
+.lined-header .underlined-header:after {
+    color:rgb(245, 123, 32);
+}
+#clients-writing .divider
+{
+    line-height:0em;
+    padding:0;
+    margin: 0 0 55px 17px;
+}
+#divider-second-wrap  {
+    margin-bottom:20px;
+}
+.request-content-row .divider {
+    padding:0;
+    margin:-20px 0 30px;
+}
+#upermits_request-content .divider {
+    padding-top: 0;
+}
+#solutions-header, .lined-header,.section-header {
+    margin-bottom:45px;
+    text-align:center;
+}
+#solutions-header-child, .lined-header-child div ,
+.section-header div {
+    display:inline-block;
+}
+.lined-header-child div {
+    color:#fff;
+}
+.lined-header div {
+    color:#fff;
+}

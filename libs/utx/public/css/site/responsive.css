@@ -1,0 +1,127 @@
+
+/* small */
+@media only screen and (max-width: 40em) {
+    footer .superbox-addr_etc {
+        text-align:center;
+    }
+    footer .superbox-addr_etc span {
+        display: block;
+    }
+    footer .superbox-addr_etc span.tag-pipe {
+        display: none;
+    }
+    footer .superbox-copyright_etc {
+        text-align:center;
+    }
+    /*
+    footer #address-number {
+        text-align:center;
+    }
+    footer .box-terms_etc {
+        text-align:center;
+    }
+    */
+    #solutions-row {
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+    #solutions-row .crate {
+        margin-bottom: 30px;
+    }
+    #solutions-row .crate:last-child {
+        margin-bottom: 0;
+    }
+    #solutions-row .solutions-text {
+        padding-right:0;
+    }
+    .utilitlist li { 
+        margin-bottom: 12px;
+    }
+    body.aboutus .divider {
+        padding-top: 0;
+    }
+    #service-bottom-buttons #insight-button-first {
+        margin-top: 25px;
+    }
+    #service-bottom-buttons button.tag-testimonials#insight-button-first {
+        margin-left: 0;
+    }
+    body.careers .supercrate-career_details ul {
+        margin-left: 30px;
+    }
+    body.clients .crate-client_logos:first-child {
+        margin-bottom: 75px;
+    }
+    body.home .banner-row h2 {
+        font-size: 1.6rem;
+    }
+    body.home .banner-row #banner-writing {
+        text-align: left;
+    }
+}
+
+/* medium */
+@media only screen and (min-width: 40.063em) {
+    footer #address-number {
+        text-align:right;
+    }
+    footer .box-terms_etc {
+        text-align:right;
+    }
+    footer .bottomest-link a {
+        margin-left:50px;
+    }
+    .utilitlist li { 
+        /*
+        white-space:nowrap;
+        */
+    }
+    body.careers .supercrate-career_details ul {
+        margin-left: 50px;
+    }
+    .crate-consult_form #service-bottom-buttons,
+    body.uinsight_request #service-bottom-buttons,
+    body.uquality_request #service-bottom-buttons,
+    body.upermits_request #service-bottom-buttons {
+        text-align: right;
+    }
+}
+
+/* large */
+@media only screen and (min-width: 64.063em) {
+}
+
+/* ------- Custom -------- */
+
+/* Media service buttons on upermits, etc should go vertical before we hit Foundations' 'small' viewport */
+#service-bottom-buttons button.tag-testimonials {
+    margin-left: 10px;
+}
+@media only screen and (min-width: 80.063em) {
+    #service-bottom-buttons button.tag-testimonials {
+        /*
+        margin-left: 10px;
+        background: yellow;
+        */
+    }
+}
+@media only screen and (max-width: 80.063em) {
+    /*
+    body.upermits #service-bottom-buttons button.tag-testimonials 
+    */
+    #service-bottom-buttons button.tag-testimonials 
+    {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+/* hack for medium viewport to fit menu items before the navburger appears */
+@media only screen and (max-width: 50.0em) {
+    header #nav {
+        padding-right: 0.5rem;
+    }
+    .top-menu li {
+        margin-right:20px;
+    }
+}
